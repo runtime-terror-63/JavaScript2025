@@ -24,3 +24,30 @@ console.log(stringNumber);
 let floatNum = parseFloat(someNumber);
 console.log(floatNum);
 console.log(typeof floatNum); //number
+
+
+
+////////////////////////////////////////// operation ///////////////////////////////////////////
+
+console.log("1" + 2)
+console.log(2+2+"3")
+console.log(2+"1")
+
+
+//comparison datatypes
+
+console.log(2<1);
+console.log(1>2);
+console.log(2===3)
+console.log(2===2)
+console.log(2!=3)
+
+console.log("2">1)
+console.log("02">1);
+
+console.log(null >= 0)
+console.log(null==0)
+console.log(undefined==0)
+
+console.log("strct check", 2 === 2);
+

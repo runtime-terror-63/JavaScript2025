@@ -9,6 +9,7 @@ console.log(myYoutubename); //sayanduttadotcom
 console.log(anothername); //chaiorcode
 
 let user = {
+  //non_primitive
   email: "sayandutta84314@gmail.com",
   upi: "user@bl",
 };

@@ -5,7 +5,7 @@ let age = 23; //integer
 let price = 99.23; //float
 
 let bigInt = 123859686984795695085050696970796859n; //bigintger
-
+console.log(bigInt);
 //string
 let name = "Sayan";
 let getname = `Helloo, ${name}!`;
@@ -44,4 +44,5 @@ console.table([
   typeof undefined, //undefined
   typeof null, //object
   typeof {}, //object
+  typeof bigInt,
 ]);

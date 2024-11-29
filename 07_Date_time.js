@@ -16,3 +16,6 @@ console.log(myCreateDate.toLocaleString());
 
 let mylocalDate = new Date("01-14-2023");
 console.log(mylocalDate.toLocaleString())
+
+let myTimeStamp = Date.now();
+console.log(myTimeStamp);

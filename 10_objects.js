@@ -1,5 +1,5 @@
 //singleton
-
+/*
 const tinderuser = new Object();
 const tinder = {};
 
@@ -67,3 +67,18 @@ console.log(tinderuser);
 console.log(Object.keys(tinderuser));
 console.log(Object.values(tinderuser));
 console.log(Object.entries(tinderuser));
+*/
+
+//distructor
+
+const course  ={
+  courseInstructor: "Sayan",
+  courseName: "js in Hindi",
+  price: "999",
+}
+
+const {courseInstructor : intructor} = course
+const {courseName : Name} = course
+
+console.log(intructor)
+console.log(Name)

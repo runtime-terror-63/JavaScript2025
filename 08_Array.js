@@ -58,6 +58,8 @@ console.log(flower.length);
 const color = ["red", "orange", "blue", "black"];
 color[6] = "purple";
 
+
+//loops
 color.forEach((item, index) => {
   console.log(`${index}, ${item}`);
 });

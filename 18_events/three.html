@@ -1,0 +1,34 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>chai aur javascript</title>
+</head>
+
+<body>
+  <h1>The setInterval() Method</h1>
+  <p id="demo"></p>
+  <button id="btn1">start</button>
+  <button id="btn2">end</button>
+</body>
+<script>
+  const text = function () {
+    document.querySelector('#demo').innerHTML += "Hellow";
+  }
+
+  let intervalId;
+  document.querySelector('#btn1').addEventListener('click', function () {
+    intervalId = setInterval(text, 1000);
+    console.log("STARTED")
+  })
+
+  document.querySelector('#btn2').addEventListener('click',
+    function () {
+      clearInterval(intervalId)
+      console.log("STOPPED")
+    })
+
+</script>
+
+</html>
